@@ -1,0 +1,66 @@
+BasedOnStyle: Google                                        # LLVM, Google, Chromium, Mozilla, WebKit
+AccessModifierOffset: -1
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveDeclarations: false
+#AlignConsecutiveMacros: false
+AlignEscapedNewlinesLeft: true
+AlignOperands: false
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: true
+#AllowAllConstructorInitializersOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty                     # None(false), Inline, All(true)
+#AllowShortIfStatementsOnASingleLine: Never
+#AllowShortLambdasOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: true
+# BraceWrapping: 
+BreakBeforeBinaryOperators: NonAssignment                   # None, NonAssignment, All
+BreakBeforeBraces: Attach                                   # Attach, Linux, Stroustrup, Allman, GNU
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit: 80
+# CommentPragmas
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+DerivePointerAlignment: true
+DisableFormat: false
+ExperimentalAutoDetectBinPacking: true
+# ForEachMacros
+IndentCaseLabels: false
+IndentWidth: 2
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+Language: Cpp                                               # None, Cpp, JavaScript, Proto
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: Inner                                 # None, Inner, All
+# ObjCSpaceAfterProperty
+# ObjCSpaceBeforeProtocolList
+#// PenaltyBreakBeforeFirstCallParameter
+#// PenaltyBreakComment
+#// PenaltyBreakFirstLessLess
+#// PenaltyBreakString
+#// PenaltyExcessCharacter
+#// PenaltyReturnTypeOnItsOwnLine: 
+PointerAlignment: Right                                     # Left, Right, Middle
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements                        # Never, ControlStatements, Always
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: Cpp11                                             # Cpp03, Cpp11, Auto
+TabWidth: 2
+UseTab: Never
